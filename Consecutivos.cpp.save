@@ -17,16 +17,13 @@ int main() {
 
     // Adicionando valores ao vetor
     for(int p = 0; p < tamanho; p++) {
-
-        //cout << "["<<p<<"] = ";
         cin >> sequenciaNumerosSorteados[p];
     }
 
     int vetorComparador[tamanho];
     for(int i = 0; i < tamanho; i++){
         vetorComparador[i] = sequenciaNumerosSorteados[i];
-            //cout << vetorComparador[i] << " ";
-        }
+    }
 
     int vetorValorRepetido[tamanho];
     for(int i = 0; i < tamanho; i++)

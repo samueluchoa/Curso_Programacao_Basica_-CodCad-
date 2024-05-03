@@ -1,0 +1,16 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    int qtd = 3;
+    vector <int> m[qtd][qtd];
+
+    for(int l = 0; l < qtd; l++) {
+            for(int c = 1; c < qtd; c++) {
+                cout << l << c;
+                cin >> m[l][c];
+            }
+    }
+}

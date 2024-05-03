@@ -23,8 +23,7 @@ int main() {
     int vetorComparador[tamanho];
     for(int i = 0; i < tamanho; i++){
         vetorComparador[i] = sequenciaNumerosSorteados[i];
-            //cout << vetorComparador[i] << " ";
-        }
+    }
 
     int vetorValorRepetido[tamanho];
     for(int i = 0; i < tamanho; i++)
